@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <title>Our Services</title>
+    <style>
+
+      /* mobile.css */
+        
+      body {
+        text-align: center;
+      }
+        
+      h1 {
+         color: #454545;
+         font: 400 29.54px 'Source Sans Pro'; 
+         margin-bottom: -10px;  
+      }
+        
+      h1 > span {
+          color: #acd373;
+      }
+    
+      h3 {
+         color: #454545;
+         font: 400 19.69px DroidSerif;
+         margin-bottom: 15px;
+          
+      }
+        
+      body > img {
+         margin-bottom: 50px; 
+      }
+        
+      div {
+        background: white;
+        display: inline-block;
+        width: 360px;
+        height: 130px;
+        margin: 0 10px;
+        text-align: left;
+        padding-left: 80px;
+
+      }
+        
+        h4 {
+            color: #acd373;
+            font: 700 20px 'Source Sans Pro';
+            margin-top: 0px;
+            margin-bottom: 0px;  
+        } 
+        
+        p {
+            color: #454545;
+            font: 400 18px 'Source Sans Pro';
+            margin-top: 5px;
+        }
+        
+        .button {
+            border-width: 2px;
+            border-color: #acd373;
+            border-style: solid;
+            width: 120px;
+            height:28px;
+            color: #acd473;
+            font: italic 11px DroidSerif;
+            font-size: 16px;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 9px;
+            
+        }
+        
+        .lmbutton2 {
+            width: 91px;
+            height: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 15pt;
+            font-style: italic;
+           
+            border-style: solid;
+            border-width: thin;
+            border-color: #acd373;
+            color: #acd373;
+        }
+        
+        
+      /* A comma separated list of all
+      your selectors that need to be
+      hidden on mobile. */
+      .seo, .game-development, .love,
+      div.desktop :nth-child(n+3) {
+        display: none;
+        background-image: none;
+      }
+
+       
+        
+      /* desktop.css */
+      @media all and (min-width: 940px) {
+        /* A comma separated list of all
+        your selectors that need to be shown
+        on desktop AND are --inline-block-- */
+        section :nth-child(n+2) {
+          display: inline-block; 
+        }
+        /* A comma separated list of all
+        your selectors that need to be shown
+        on desktop AND are --block-- */
+        .example, .example2, .example3 {
+          display: block;
+        }
+      }
+        
+        .services-graphic-design {
+            background: url(images/paintbrush12.png);
+            background-repeat: no-repeat;
+        }
+        
+        .mobile-app-development {
+            background:url(images/mobile221.png);
+            background-repeat: no-repeat;
+        }
+        
+        .web-design {
+            background:url(images/monitor78.png);
+            background-repeat: no-repeat;
+        }
+        
+        .seo {
+            background:url(images/bars51.png);
+            background-repeat: no-repeat;
+        }
+        
+        .game-development {
+            background:url(images/game54.png);
+            background-repeat: no-repeat;
+        }
+        
+        .love {
+            background:url(images/like66.png);
+            background-repeat: no-repeat;
+        }
+        
+        
+      
+
+    </style>
+  </head>
+  <body>
+    
+
+      <h1>OUR <span>SERVICES</span></h1>  
+      <h3>"Asperiores en commodi eius a quo omnis ease"</h3>
+      
+      <img src="images/MergedLayers.png" alt="line">
+      
+    <section>
+          <div class="services-graphic-design">
+            <h4>GRAPHIC DESIGN</h4>
+            <p>Eius quae. Eveniet veniam repelledus eos, vitae repudiandae deleniti dol rum</p>  
+          </div>
+        
+          <div class="mobile-app-development">
+            <h4>MOBILE APP DEVELOPMENT</h4>
+            <p>Repellendus consequatur perferendis vitae neque eum similique possimus facilis</p>  
+          </div>
+        
+          <div class="web-design">
+            <h4>WEB DESIGN & DEVELOPMENT</h4>
+            <p>Inventore nesciunt velit voluptas ac santium harum temporibus</p>  
+          </div>
+        
+          <div class="desktop seo">
+            <h4>SEO & MARKETING</h4>
+            <p>Commodi nulla assumenda porro, inventore nesciunt velit voluptas</p>  
+          </div>
+        
+          <div class="desktop game-development">
+            <h4>GAME DEVELOPMENT</h4>
+            <p>Ipsa laboriosam error aut sit obcac ti, ea maiores ullam nihil et</p>  
+          </div>
+        
+          <div class="desktop love">
+            <h4>MADE WITH LOVE</h4>
+            <p>Eveniet veniam repellendus eos, vitae repudiandae deleniti dolorum</p>  
+          </div>
+    </section>
+      
+      <div class="button">
+            Learn More
+      </div>
+      
+  </body>
+</html>
